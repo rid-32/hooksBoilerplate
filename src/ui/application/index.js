@@ -35,7 +35,9 @@ const Application = () => {
   return (
     <div>
       <span>{counter}</span>
+
       <button onClick={() => setCounter(counter + 1)}>Increase!</button>
+
       <NewChildComponent callback={fetchData} />
     </div>
   )

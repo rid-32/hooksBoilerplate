@@ -6,6 +6,9 @@ import store from 'utils/store'
 
 import Application from 'ui/application'
 
+import 'normalize.css'
+import 'stylesheets/styles'
+
 ReactDOM.render(
   <Provider store={store}>
     <Application />
